@@ -10,7 +10,7 @@ namespace SlidingWindowProblem
         {
             int windowStart = 0;
             int minLength = Int32.MaxValue;
-            double windowSum = 0;
+            int windowSum = 0;
 
             for (int windowEnd = 0; windowEnd < arr.Length; windowEnd++)
             {
