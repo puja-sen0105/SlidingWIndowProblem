@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SlidingWindowProblem
 {
-    class SingleIteration
+    class AvgOfSubArraySingleIteration
     {
         public static double[] AverageSum(int k, int[] arr)
         {
@@ -27,7 +27,7 @@ namespace SlidingWindowProblem
         }
     }
 
-    class DoubleIteration
+    class AvgOfSubArrayDoubleIteration
     {
         public static double[] AverageSum(int k, int[] arr)
         {
